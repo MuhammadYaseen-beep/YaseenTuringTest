@@ -1,0 +1,59 @@
+/* CallDetails.css */
+
+.call-details-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .call-details-card {
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .call-details-card h2 {
+    color: #333;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .call-details-card p {
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .call-details-card p strong {
+    color: #333;
+  }
+  
+  .notes-section {
+    margin-top: 20px;
+    border-top: 1px solid #eaeaea;
+    padding-top: 20px;
+  }
+  
+  .notes-list {
+    list-style: none;
+    padding: 0;
+    max-height: 200px; /* Adjust based on your needs */
+    overflow-y: auto; /* Enables scroll if notes overflow */
+  }
+  
+  .notes-list li {
+    background: #f9f9f9;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .no-notes {
+    color: #999;
+  }
+  
